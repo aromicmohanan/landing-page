@@ -8,7 +8,6 @@ body {
 .image {
     width: 640px;
     height: 360px;
-    background-color: lightgreen;
     flex-shrink: 0;
 }
 
@@ -19,12 +18,12 @@ body {
     width: 320px;
     height: 320px;
     border-style: solid;
+    border-width: thick;
     border-color: #3882f6;
     border-radius: 16px;
 }
 
 .i1 {
-    margin: 2rem 0;
     background-image: url("./images/connor-jolley-Y6I4VvyN_sA-unsplash.jpg");
     background-size: cover;
 }
@@ -71,8 +70,9 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 8rem;
+    align-items: center;
     flex-wrap: wrap;
+    padding: 0 8rem;
 }
 
 .header h3 {
@@ -84,16 +84,18 @@ a {
     list-style-type: none;
     padding: 0;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .section-1 {
     display: flex;
-    padding: 1rem 8rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 8rem;
 }
 
 .section-1 .text {
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .section-1 h1 {
@@ -106,14 +108,19 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
-    font-size: 36px;
     color: #1F2937;
+    padding: 0 8rem;
+}
+
+.section-2 h2 {
+    font-size: 36px;
     font-weight: 900;
 }
 
 .cards {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
@@ -121,14 +128,13 @@ a {
 .card {
     text-align: center;
     font-size: 18px;
-    font-weight: normal;
 }
 
 .section-3 {
     background-color: #E5E7EB;
-    padding: 2rem;
     font-size: 36px;
     color: #1F2937;
+    padding: 0 8rem;
 }
 
 .section-3 p {
@@ -140,18 +146,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 4rem 8rem;
 }
 
 .section-4 .banner {
     background-color: #3882f6;
-    padding: 2rem;
+    padding: 2rem 4rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 4rem;
-    width: fit-content;
-    height: fit-content;
-    margin: 4rem;
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -173,5 +176,7 @@ button {
 }
 
 .footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
