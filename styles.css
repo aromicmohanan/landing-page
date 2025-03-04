@@ -1,0 +1,139 @@
+.image {
+    width: 640px;
+    height: 360px;
+    background-color: lightgreen;
+    border-radius: 16px;
+    flex-shrink: 0;
+    box-shadow: 4px 4px 4px;
+}
+
+.i2,
+.i3,
+.i4,
+.i5 {
+    width: 240px;
+    height: 240px;
+}
+
+.i1 {
+    margin: 2rem 0;
+    background-image: url("./images/connor-jolley-Y6I4VvyN_sA-unsplash.jpg");
+    background-size: cover;
+}
+
+.i2 {
+    background-image: url("./images/sergey-shmidt-koy6FlCCy5s-unsplash.jpg");
+    background-size: cover;
+}
+
+.i3 {
+    background-image: url("./images/sheng-l-q2dUSl9S4Xg-unsplash.jpg");
+    background-size: cover;
+}
+
+.i4 {
+    background-image: url("./images/tim-foster-o4mP43oPGHk-unsplash.jpg");
+    background-size: cover;
+}
+
+.i5 {
+    background-image: url("./images/wil-stewart-pHANr-CpbYM-unsplash.jpg");
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header,
+.section-1,
+.footer {
+    background-color: lightcyan;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6rem;
+    flex-wrap: wrap;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.section-1 {
+    display: flex;
+    padding: 0 8rem;
+}
+
+.section-1 .text {
+    margin: 2rem;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.cards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 240px;
+    text-align: center;
+    font-size: small;
+}
+
+.section-3 {
+    background-color: lightgreen;
+    padding: 2rem;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4 .banner {
+    background-color: lightblue;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    width: fit-content;
+    height: fit-content;
+    margin: 4rem;
+}
+
+button {
+    border-style: solid;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    border-style: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+.footer {
+    font-size: small;
+    text-align: center;
+}
