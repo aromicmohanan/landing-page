@@ -1,18 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif
+}
+
 .image {
     width: 640px;
     height: 360px;
     background-color: lightgreen;
-    border-radius: 16px;
     flex-shrink: 0;
-    box-shadow: 4px 4px 4px;
 }
 
 .i2,
 .i3,
 .i4,
 .i5 {
-    width: 240px;
-    height: 240px;
+    width: 320px;
+    height: 320px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 16px;
 }
 
 .i1 {
@@ -41,29 +49,35 @@
     background-size: cover;
 }
 
-body {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .header,
 .section-1,
 .footer {
-    background-color: lightcyan;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 a {
-    color: black;
+    color: #1F2937;
     text-decoration: none;
+}
+
+.header a,
+.section-1 a,
+.footer a {
+    color: #E5E7EB;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 6rem;
+    padding: 0 8rem;
     flex-wrap: wrap;
+}
+
+.header h3 {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header ul {
@@ -75,11 +89,17 @@ a {
 
 .section-1 {
     display: flex;
-    padding: 0 8rem;
+    padding: 1rem 8rem;
 }
 
 .section-1 .text {
-    margin: 2rem;
+    margin-right: 1rem;
+}
+
+.section-1 h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .section-2 {
@@ -87,6 +107,9 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .cards {
@@ -96,14 +119,21 @@ a {
 }
 
 .card {
-    width: 240px;
     text-align: center;
-    font-size: small;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .section-3 {
-    background-color: lightgreen;
+    background-color: #E5E7EB;
     padding: 2rem;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.section-3 p {
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .section-4 {
@@ -113,7 +143,7 @@ a {
 }
 
 .section-4 .banner {
-    background-color: lightblue;
+    background-color: #3882f6;
     padding: 2rem;
     display: flex;
     justify-content: space-between;
@@ -122,19 +152,26 @@ a {
     width: fit-content;
     height: fit-content;
     margin: 4rem;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 button {
-    background-color: white;
+    background-color: #3882f6;
     border-style: solid;
     padding: 4px 8px;
     border-radius: 4px;
     font-weight: bold;
     border-style: none;
-    box-shadow: 2px 2px 2px black;   
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.banner button {
+    border-style: solid;
+    border-color: #E5E7EB;
 }
 
 .footer {
-    font-size: small;
     text-align: center;
 }
