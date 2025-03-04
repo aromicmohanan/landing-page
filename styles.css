@@ -125,12 +125,13 @@ a {
 }
 
 button {
+    background-color: white;
     border-style: solid;
     padding: 4px 8px;
     border-radius: 4px;
     font-weight: bold;
     border-style: none;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 2px black;   
 }
 
 .footer {
