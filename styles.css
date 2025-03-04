@@ -91,7 +91,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 2rem 8rem;
+    padding: 4rem 8rem;
 }
 
 .section-1 .text {
@@ -108,8 +108,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap:2rem;
     color: #1F2937;
-    padding: 0 8rem;
+    padding: 2rem 8rem;
 }
 
 .section-2 h2 {
@@ -134,7 +135,7 @@ a {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
-    padding: 0 8rem;
+    padding: 2rem 8rem;
 }
 
 .section-3 p {
