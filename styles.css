@@ -26,6 +26,7 @@ body {
 .i1 {
     background-image: url("./images/connor-jolley-Y6I4VvyN_sA-unsplash.jpg");
     background-size: cover;
+    margin: 2rem;
 }
 
 .i2 {
@@ -91,11 +92,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
     padding: 2rem 8rem;
 }
 
 .section-1 .text {
     margin-right: 2rem;
+    width: 25%;
+    flex-grow: 1;
 }
 
 .section-1 h1 {
