@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.image {
+    width: 640px;
+    height: 360px;
+    flex-shrink: 0;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px;
+}
+
+.i2,
+.i3,
+.i4,
+.i5 {
+    width: 240px;
+    height: 240px;
+}
+
+.i1 {
+    background-image: url("./images/connor-jolley-Y6I4VvyN_sA-unsplash.jpg");
+}
+
+.i2 {
+    background-image: url("./images/sergey-shmidt-koy6FlCCy5s-unsplash.jpg");
+    background-size: cover;
+}
+
+.i3 {
+    background-image: url("./images/sheng-l-q2dUSl9S4Xg-unsplash.jpg");
+    background-size: cover;
+}
+
+.i4 {
+    background-image: url("./images/tim-foster-o4mP43oPGHk-unsplash.jpg");
+    background-size: cover;
+}
+
+.i5 {
+    background-image: url("./images/wil-stewart-pHANr-CpbYM-unsplash.jpg");
+    background-size: cover;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em 8em;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 2em 8em;
+}
+
+.section-1 .text {
+    width: 25%;
+    flex-grow: 1;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 8em;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 240px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.section-3 {
+    padding: 2rem 8rem;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 8rem;
+}
+
+.section-4 .banner {
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+button {
+    border-style: solid;
+    padding: .5em 1em;
+    border-radius: 4px;
+    background-color: white;
+    border-color:darkblue;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header,
+.section-1,
+.footer {
+    background-color: lightblue;
+}
+
+.section-3 {
+    background-color: lightgrey;
+}
+
+.banner {
+    background-color: lightskyblue;
+}
