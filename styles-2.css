@@ -11,15 +11,18 @@ body {
     flex-shrink: 0;
     background-size: cover;
     border-radius: 8px;
-    box-shadow: 2px 2px 8px;
+    border-color: darkcyan;
+    border-style: solid;
 }
 
 .i2,
 .i3,
 .i4,
 .i5 {
+    border-color: darkcyan;
     width: 240px;
     height: 240px;
+
 }
 
 .i1 {
@@ -128,9 +131,8 @@ button {
     padding: .5em 1em;
     border-radius: 4px;
     background-color: white;
-    border-color:darkblue;
+    border-color: darkcyan;
     font-weight: bold;
-    box-shadow: 1px 1px 2px;
 }
 
 .footer {
