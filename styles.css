@@ -15,8 +15,8 @@ body {
 .i3,
 .i4,
 .i5 {
-    width: 320px;
-    height: 320px;
+    width: 240px;
+    height: 240px;
     border-style: solid;
     border-width: thick;
     border-color: #3882f6;
@@ -26,7 +26,6 @@ body {
 .i1 {
     background-image: url("./images/connor-jolley-Y6I4VvyN_sA-unsplash.jpg");
     background-size: cover;
-    margin: 2rem;
 }
 
 .i2 {
@@ -73,7 +72,7 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 8rem;
+    padding: 0 8em;
 }
 
 .header h3 {
@@ -85,7 +84,7 @@ a {
     list-style-type: none;
     padding: 0;
     display: flex;
-    gap: 2rem;
+    gap: 1em;
 }
 
 .section-1 {
@@ -93,11 +92,11 @@ a {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 2rem 8rem;
+    padding: 2em 8em;
+    gap: 2em;
 }
 
 .section-1 .text {
-    margin-right: 2rem;
     width: 25%;
     flex-grow: 1;
 }
@@ -112,8 +111,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     color: #1F2937;
-    padding: 0 8rem;
+    padding: 0 8em;
 }
 
 .section-2 h2 {
@@ -125,20 +125,21 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 2em;
     flex-wrap: wrap;
 }
 
 .card {
     text-align: center;
     font-size: 18px;
+    width: 240px;
 }
 
 .section-3 {
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
-    padding: 2rem 8rem;
+    padding: 2em 8em;
 }
 
 .section-3 p {
@@ -150,15 +151,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4rem 8rem;
+    padding: 4em 8em;
 }
 
 .section-4 .banner {
     background-color: #3882f6;
-    padding: 2rem 4rem;
+    padding: 2em 4em;
     display: flex;
     align-items: center;
-    gap: 4rem;
+    gap: 4em;
     color: #E5E7EB;
     font-size: 18px;
 }
